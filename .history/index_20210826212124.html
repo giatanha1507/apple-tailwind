@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="stylesheet" href="./build/tailwind.css" />
+  </head>
+  <body class="bg-black">
+    <nav
+      class="
+        top-0
+        absolute
+        z-50
+        w-full
+        flex flex-wrap
+        items-center
+        justify-between
+        px-2
+        py-3
+      "
+    >
+      <div
+        class="
+          container
+          px-4
+          mx-auto
+          flex flex-wrap
+          items-center
+          justify-between
+        "
+      >
+        <div
+          class="
+            w-full
+            relative
+            flex
+            justify-between
+            lg:w-auto lg:static lg:block lg:justify-start
+          "
+        >
+          <a
+            href="#"
+            class="
+              text-sm
+              font-bold
+              leading-relaxed
+              inline-block
+              mr-4
+              py-2
+              whitespace-nowrap
+              uppercase
+              text-white
+            "
+            >Home</a
+          >
+          <button
+            class="
+              cursor-pointer
+              text-xl
+              leading-none
+              px-3
+              py-1
+              border border-solid border-transparent
+              rounded
+              bg-transparent
+              block
+              lg:hidden lg:outline-none
+              focus:outline-none
+            "
+            type="button"
+            onclick="toggleNavbar('ex-collapse-nav')"
+          >
+            >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/9f4a14e430.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
